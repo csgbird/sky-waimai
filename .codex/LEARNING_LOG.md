@@ -39,3 +39,10 @@
 - 已通过 Homebrew 安装 macOS 版 Nginx 1.31.4，前端使用 `8081` 端口运行。
 - 已验证 `http://localhost:8081` 返回 HTTP 200；Java 后端尚未运行时，页面接口请求会暂时失败，这是正常现象。
 - 已将项目目录由带前导空格的 ` sky-waimai` 修正为 `sky-waimai`。
+
+## 2026-08-30：JWT 专题学习
+
+- 已学习 Token 与 JWT 的关系、JWT 的三段结构以及签名防篡改原理。
+- 已结合员工登录理解 JWT 的生成、响应体返回、Cookie 保存、请求头携带和拦截器校验流程。
+- 已在 `docs/learning/java/JWT教程.md` 建立项目内专题教程。
+- 新建 `docs/learning/README.md` 作为后续 Java、MySQL、Spring、MyBatis、Redis 等学习笔记的统一入口。
